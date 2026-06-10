@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISTRICT SNEAKERS Premium</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght=300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="topbar">🚚 ENVÍO GRATIS DESDE S/299</div>
+    
+    <header>
+        <div class="nav">
+            <div class="logo">DISTRICT SNEAKERS</div>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <div class="search"><input placeholder="Buscar zapatillas, marcas, modelos..."></div>
+            <div class="icons">👤 ❤️ 🛒</div>
+        </div>
+        <div class="menu" id="menu">
+            <a href="#">Nuevos</a><a href="#">Hombre</a><a href="#">Marcas</a><a href="#">Ofertas</a><a href="#">Contacto</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="slide active" style="background-image:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1600&h=900&fit=crop')"></div>
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=1600&h=900&fit=crop')"></div>
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=1600&h=900&fit=crop')"></div>
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>NEW STREET<br>COLLECTION</h1>
+            <p>Diseñadas para dominar la ciudad.</p>
+            <a class="btn" href="#">COMPRAR AHORA</a>
+        </div>
+    </section>
+
+    <div class="marquee">
+        <div class="track">NIKE • ADIDAS • PUMA • NEW BALANCE • VANS • CONVERSE • NIKE • ADIDAS • PUMA • NEW BALANCE • </div>
+    </div>
+
+    <section class="section"><h2 class="title">NUEVOS LANZAMIENTOS</h2><div class="grid" id="g1"></div></section>
+    <section class="section"><h2 class="title">MÁS VENDIDOS</h2><div class="grid" id="g2"></div></section>
+    <section class="section"><h2 class="title">OFERTAS ESPECIALES</h2><div class="grid" id="g3"></div></section>
+
+    <section class="newsletter">
+        <h2 class="title">ÚNETE A DISTRICT</h2>
+        <p>Recibe ofertas exclusivas y nuevos lanzamientos.</p><br>
+        <input placeholder="Tu correo"><button>Suscribirme</button>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div><h3>Empresa</h3><p>Nosotros</p><p>Tiendas</p></div>
+            <div><h3>Ayuda</h3><p>Envíos</p><p>Devoluciones</p></div>
+            <div><h3>Categorías</h3><p>Sneakers</p><p>Streetwear</p></div>
+            <div><h3>Redes</h3><p>Instagram</p><p>TikTok</p></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
